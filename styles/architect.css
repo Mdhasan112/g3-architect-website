@@ -71,6 +71,38 @@ header li a {
   width: 100%;
 }
 
+/* main section styles */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.team-container {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.team-content {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.team-content-title {
+  font-size: 2.8rem;
+  color: #727272;
+  font-weight: 500;
+}
+.text-features {
+  color: #131313;
+  font-weight: 700;
+}
+.text-features-2 {
+  color: #ff900e;
+  font-weight: 700;
+}
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
