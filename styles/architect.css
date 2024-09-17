@@ -110,7 +110,7 @@ main {
 }
 .feature-content .card {
   padding: 30px;
-  margin: 20px;
+  margin: 20px 0px;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
@@ -179,6 +179,17 @@ main {
 }
 .sponsor-img-container img {
   height: 50px;
+}
+/* footer section styles */
+footer {
+  margin-top: 80px;
+  background-color: #fff4e6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 1rem;
+  text-align: center;
 }
 /* responsive media queries */
 /* mobile devices */
